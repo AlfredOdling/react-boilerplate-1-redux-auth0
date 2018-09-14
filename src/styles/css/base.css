@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300, 800");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300, 400, 800");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,61 @@
+@import 'base.scss';
+
+#sidebar {
+   color: $color-white;
+   width: 240px;
+   height: stretch;
+
+   #sidebar-background {
+      background:
+         linear-gradient(
+            rgba(37, 37, 77, 0.6), 
+            rgba(0, 0, 45, 0.6)
+         ),
+         url('../../assets/air-ballon.jpg');
+      z-index: -1;
+      height: inherit;
+      width: inherit;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-size: cover;
+      background-position: 50%;
+   }
+
+   #sidebar-header {
+      @extend %column-center-center;
+      height: 60px;
+      padding: 10 30 10 30;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+   }
+   
+   #sidebar-nav {
+
+      .nav-item {
+         @extend %column-center-center;
+         height: 50px;
+         margin-top: 3px;
+
+         &:last-child {
+            border-radius: 0px;
+         }
+
+         .nav-inner-item {
+            @extend %column-center-center;
+            padding: 10 30 10 30;
+            height: 90%;
+            width: 90%;
+            transition: 0.2s;
+            border-radius: 4px;
+            
+            &:hover {
+               background-color: rgba(37, 37, 77, 0.9);
+            }
+
+            &:active {
+               background-color: rgba(53, 53, 128, 0.6);
+            }
+         }
+      }
+   }
+}

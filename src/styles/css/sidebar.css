@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300, 800");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300, 400, 800");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#sidebar #sidebar-nav .nav-item .nav-inner-item, #sidebar #sidebar-nav .nav-item, #sidebar #sidebar-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sidebar {
+  color: white;
+  width: 240px;
+  height: stretch;
+}
+#sidebar #sidebar-background {
+  background: linear-gradient(rgba(37, 37, 77, 0.6), rgba(0, 0, 45, 0.6)), url("../../assets/air-ballon.jpg");
+  z-index: -1;
+  height: inherit;
+  width: inherit;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: cover;
+  background-position: 50%;
+}
+#sidebar #sidebar-header {
+  height: 60px;
+  padding: 10 30 10 30;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+#sidebar #sidebar-nav .nav-item {
+  height: 50px;
+  margin-top: 3px;
+}
+#sidebar #sidebar-nav .nav-item:last-child {
+  border-radius: 0px;
+}
+#sidebar #sidebar-nav .nav-item .nav-inner-item {
+  padding: 10 30 10 30;
+  height: 90%;
+  width: 90%;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+#sidebar #sidebar-nav .nav-item .nav-inner-item:hover {
+  background-color: rgba(37, 37, 77, 0.9);
+}
+#sidebar #sidebar-nav .nav-item .nav-inner-item:active {
+  background-color: rgba(53, 53, 128, 0.6);
+}
+
+/*# sourceMappingURL=sidebar.css.map */

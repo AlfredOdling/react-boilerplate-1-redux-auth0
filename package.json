@@ -1,0 +1,43 @@
+{
+  "name": "boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://AlfredOdling.github.io/react-boilerplate-1-redux-auth0",
+  "dependencies": {
+    "auth0-lock": "^11.9.1",
+    "axios": "^0.18.0",
+    "connected-react-router": "^4.4.1",
+    "history": "^4.7.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged",
+    "sass": "sass --watch src/styles/scss:src/styles/css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.2",
+    "sass": "^1.13.4"
+  }
+}
